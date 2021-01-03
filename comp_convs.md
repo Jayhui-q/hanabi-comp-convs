@@ -2,9 +2,9 @@
 
 This document records all of the Hanabi convention history for all of the Hanabi competitions that I played in previously, and will be regularly updated (with up to a month's delay) after a competition ends. Our hope is that these conventions serve as inspiration for fellow competitors, future community conventions, or as just fun ideas to ruminate on about the way the game could be played. 
 
-These competitions are played on https://hanab.live/ and are located at https://hanabi-competitions.com/.
+These competitions are played on https://hanab.live/ and are located [here](https://hanabi-competitions.com/).
 
-The conventions below all build upon community conventions found at https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md. If they are not specified to be altered by a competition-specific convention, then the community conventions were assumed. As a reminder, these competitions have bottom-deck blind-play enabled and also have a turn count emphasis -- they are designed with the goal of performing well in the competitions and may not be optimal for synchronous performance in normal games. In addition, they were playtested with a specific number of players in mind (as compared to being applicable for 3-6 players). They were also practiced with at-length (!) 
+The conventions below all build upon community conventions found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md). If they are not specified to be altered by a competition-specific convention, then the community conventions were assumed. As a reminder, these competitions have bottom-deck blind-play enabled and also have a turn count emphasis -- they are designed with the goal of performing well in the competitions and may not be optimal for synchronous performance in normal games. In addition, they were playtested with a specific number of players in mind (as compared to being applicable for 3-6 players). They were also practiced with at-length (!) 
 
 Massive massive credits go to **rkass, avanderwalde, kevincaseytdk1, and kyle** for being a amazing parts of my competition teams and all of the awesome memories we have made together in these competitions.
 
@@ -12,7 +12,7 @@ As usual, Alice, Bob, Cathy, Donald, and Emily are names used for players in tha
 Alice is assumed to be the person performing the action unless otherwise noted. 
 
 # 2020 T3 Standard Series
-Results can be found here: https://hanabi-competitions.com/series/2020%20T3%20Standard
+Results can be found [here](https://hanabi-competitions.com/series/2020%20T3%20Standard)
 
 2p White Reversed (6 Suits), and 2p Clue Starved (6 Suits) are ommitted, as I did not compete in either. 2020 T3 Standard Series was our team's first competition series.
 
@@ -122,7 +122,7 @@ These conventions refer to when a player has unknown 1's in their hand. They are
 
 ## 3p Duck (5 Suits) 10/26
 ### General Notes
-* All hyphenated conventions apply unless this document conflicts with hyphenated, in which case conventions in this document take precedence. See https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Duck.md and https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md (In particular, 1’s promise, 3 discharge, and 4 charm)
+* All hyphenated conventions apply unless this document conflicts with hyphenated, in which case conventions in this document take precedence. See [Duck](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Duck.md) and [No Positive Clues](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md) (In particular, 1’s promise, 3 discharge, and 4 charm)
 * Keep an eye out for occupied play clues
 
 ### Conventions Switched Off
@@ -188,10 +188,10 @@ So in a stall situation, if Cathy has a card that could've been focused in as a 
   * Red 1 and Blue 1 are on the stacks 
   * Alice quacks at Bob’s slot 1 and slot 2
   * Bob plays slot 1 and sees that it is red 2. Bob marks that his slot 2 is either red or 2. 
-  * Cathy clues a blue 3 to Alice, and Bob is promised b2 on his slot 2, unless Cathy blind-plays.
+  * Cathy clues a blue 3 to Alice, and Bob is promised b2 on his slot 2, unless Alice blind-plays.
 * Example 2:
   * Alice quacks at Cathy’s slot 1 and 2
-  * Bob plays his charm slot, indiciating to Cathy that her slot 1 is a 4. 
+  * Bob plays his charm slot, indicating to Cathy that her slot 1 is a 4. 
   * Later, Alice clues Bob a b3, which is not playable.
   * Cathy should not play her prompt. Instead the clue is either a finesse or a special move.
 
