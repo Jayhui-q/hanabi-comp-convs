@@ -13,13 +13,13 @@ Alice is assumed to be the person performing the action unless otherwise noted.
 
 [2020 T3](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#2020-t3-standard-series)
 * [3p No Variant](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-no-variant-914)
-* [4p Rainbow 6 - Clue Partners](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits-928-----clue-partners)
+* [4p Rainbow 6 - Clue Partners](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits-928----clue-partners)
 * [3p Duck](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-duck-5-suits-1026)
 * [3p Prism 6](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-prism-6-suits-1109)
-* [4p Rainbow 6 - Detrimental Characters](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits--detrimental-characters)
+* [4p Rainbow 6 - Detrimental Characters](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits-1214---detrimental-characters)
 
 [Non-Series Comps](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#non-series-competitions)
-* [5p No Variant - No Hats](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#5p-no-variant---no-hats)
+* [5p No Variant - No Hats](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#5p-no-variant-1421---no-hats)
 
 # 2020 T3 Standard Series
 Results can be found [here](https://hanabi-competitions.com/series/2020%20T3%20Standard)
