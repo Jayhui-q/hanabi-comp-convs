@@ -134,6 +134,7 @@ These conventions refer to when a player has unknown 1's in their hand. They are
 * Priority Finesse, Prompt, Bluff
 * Double Finesses
 * Fake Saves
+* Relaxed 2 Saves
 
 ### Additional Conventions
 #### LPC and OPC
@@ -220,6 +221,7 @@ So in a stall situation, if Cathy has a card that could've been focused in as a 
 * A player may not scream to save a playable, non-critical 4
 
 #### 2 Save Obligation 
+* Relaxed 2 Saves, from the Duck document, is off.
 * Without context, you have to save 2 even if you might have the matching 2 in hand. 
 
 #### Sarcastic Assumption
