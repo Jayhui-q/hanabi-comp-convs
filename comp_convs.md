@@ -327,7 +327,7 @@ This competition features a specific detriment assigned to each player at the be
 
 ### Clue Recipient Restricted
 *Characters in this class are limited by whom they may clue*
-* Note that the next player whom Spiteful may not clue and the previous player whom Insolent may not clue does not change when play order shifts via Contrarian * 
+*Note that the next player whom Spiteful may not clue and the previous player whom Insolent may not clue does not change when play order shifts via Contrarian*
 
 #### Spiteful
 * Cannot clue the next player
@@ -733,15 +733,15 @@ potential bluff here.
 #### Stall sequence
   1. Clue an untouched playable card or a critical save
   2. A save clue
-	3. 5 stall
-	4. Tempo clue (if there is a higher ranked available clue in the stall sequence to give and a tempo clue is given, it calls for a TCCM)
-	5. Locked Hand Save: save a non-critical card on chop (not if it will lock someone’s hand)
-	6. Fill in 
-	7. Hard burn (given in a “top down” order starting with the very next player you’re able to clue)
+  3. 5 stall
+  4. Tempo clue (if there is a higher ranked available clue in the stall sequence to give and a tempo clue is given, it calls for a TCCM)
+  5. Locked Hand Save: save a non-critical card on chop (not if it will lock someone’s hand)
+  6. Fill in 
+  7. Hard burn (given in a “top down” order starting with the very next player you’re able to clue)
     * Start with any 5’s if available, then work down in rank
     * Prefer 5 on the player who will take a turn after you, then 5 on next next player, then 5 on next next next player. Then 4 on next player.
-	8. Clue Restricted Save
-	9. Save any card not on chop (really try to avoid this b/c it will look like a finesse- maybe we even remove this from the available options)
+  8. Clue Restricted Save
+  9. Save any card not on chop (really try to avoid this b/c it will look like a finesse- maybe we even remove this from the available options)
 
 #### 1-away screams only on strictly critical cards (only one copy left)
 
