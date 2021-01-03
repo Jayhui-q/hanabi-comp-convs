@@ -11,6 +11,16 @@ Massive massive credits go to **rkass, avanderwalde, kevincaseytdk1, and kyle** 
 As usual, Alice, Bob, Cathy, Donald, and Emily are names used for players in that order. 
 Alice is assumed to be the person performing the action unless otherwise noted. 
 
+[2020 T3](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#2020-t3-standard-series)
+* [3p No Variant](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-no-variant-914)
+* [4p Rainbow 6 -- Clue Partners](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits-928-----clue-partners)
+* [3p Duck](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-duck-5-suits-1026)
+* [3p Prism 6](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-prism-6-suits-1109)
+* [4p Rainbow 6 - Detrimental Characters](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits--detrimental-characters)
+
+[Non-Series Comps](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#non-series-competitions)
+* [5p No Variant -- No Hats](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#5p-no-variant-6-suits--no-hats)
+
 # 2020 T3 Standard Series
 Results can be found [here](https://hanabi-competitions.com/series/2020%20T3%20Standard)
 
@@ -386,7 +396,7 @@ This competition features a specific detriment assigned to each player at the be
 #### Hesitant
 * Cannot play cards from slot 1
 * Notes
-* Be careful that they won’t be able to play slot 1 when thinking about order chop moves, fresh 1s, and general priority moves.
+	* Be careful that they won’t be able to play slot 1 when thinking about order chop moves, fresh 1s, and general priority moves.
 * Conventions
   * **Finesse Shift**
    	* All finesse positions are shifted by 1 slot, so slot 2 is finesse, slot 3 is ejection, and slot 4 is discharge. This player does not have a charm slot, and when finessed or bluffed, plays s2 in order to resolve it immediately.
@@ -654,7 +664,7 @@ potential bluff here.
 #### Contrarian
 * Play order inverts after taking a turn; 2-turn end game
 * Notes
-* Does not modify other character effects “previous” and “after” (note the stubborn is modified because it’s wording is “before”)
+	* Does not modify other character effects “previous” and “after” (note the stubborn is modified because it’s wording is “before”)
 * Conventions
   * Everyone’s next player is changing every round, making it different who you can bluff
   * Order Chop Moves apply to the player who plays after the player who plays the 1.
