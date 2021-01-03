@@ -314,12 +314,12 @@ So in a stall situation, if Cathy has a card that could've been focused in as a 
 
 #### Modified Stall Sequence
   1. Play/Save Clue
-	2. Good Locked Hand Save. An LHS with color may not be given on turn 1.
-	3. Tempo clue
-	4. 5 Stall
-	5. Fill in
-	6. Hard Burn
-	7. Bad Locked Hand Save
+  2. Good Locked Hand Save. An LHS with color may not be given on turn 1.
+  3. Tempo clue
+  4. 5 Stall
+  5. Fill in
+  6. Hard Burn
+  7. Bad Locked Hand Save
 
 Note: LHS does not ask for a play when someone is loaded.
 
