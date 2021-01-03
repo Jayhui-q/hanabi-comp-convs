@@ -764,21 +764,21 @@ potential bluff here.
 
 #### No Batons
 * All batons (not in a stall situation) should be read as layered gentlemans discards. For example:
-* Nothing is on the stacks
-* Alice discards a known b2
-* Bob and Cathy should assume that between the two of them they have b1, b2 on finesse
-* If Bob sees b2 in Cathy’s hand 
-* If Bob does not also see b1, Bob should play the finesse position of Cathy’s b2. If it’s not a matching b1, it is a globally known bluff
-* If Bob sees b1 in Cathy’s hand, refer to the Sly Gentleman for Bob’s course of action.
-* If Bob does not see b2 in Cathy’s hand
-* If Bob does not also see b1 in Cathy’s hand, Bob should play his finesse until he plays b1, b2
-* If Bob sees b1 in Cathy’s hand, Bob should hesitate and let Cathy play her b1. After Cathy plays her b1, Bob should play the matching finesse position of Cathy’s b1 play if Alice does not fix.
+  * Nothing is on the stacks
+  * Alice discards a known b2
+  * Bob and Cathy should assume that between the two of them they have b1, b2 on finesse
+  * If Bob sees b2 in Cathy’s hand 
+  * If Bob does not also see b1, Bob should play the finesse position of Cathy’s b2. If it’s not a matching b1, it is a globally known bluff
+  * If Bob sees b1 in Cathy’s hand, refer to the Sly Gentleman for Bob’s course of action.
+  * If Bob does not see b2 in Cathy’s hand
+  * If Bob does not also see b1 in Cathy’s hand, Bob should play his finesse until he plays b1, b2
+  * If Bob sees b1 in Cathy’s hand, Bob should hesitate and let Cathy play her b1. After Cathy plays her b1, Bob should play the matching finesse position of Cathy’s b1 play if Alice does not fix.
 
 #### 7 Clue End Game Speedup
 * In end game, if Alice has 7 clues, Alice may bomb her right-most known trash or, in the case she doesn’t have known trash, her right-most untouched card as a speedup maneuver. If she does so, no one is expected to play. You can not do this if there is a play on the board! Otherwise 8 clues will not be reached and you should just clue and let the other person without a play discard.
 
 ### Discard Order.
-We found in helpful to agree on a preferred discard priority among the characters. This helped us modulate among players based off of who we wanted to draw cards throughout the game.
+We found it helpful to agree on a preferred discard priority among the characters. This helped us modulate among players based off of who we wanted to draw cards throughout the game.
 
 Highest on the list should prefer discarding, and lowest should prefer not discarding. Of course getting players with trash to discard is always advantageous.
 * Wasteful, Traumatized, Anxious
