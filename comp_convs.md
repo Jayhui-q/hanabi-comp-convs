@@ -6,7 +6,7 @@ These competitions are played on https://hanab.live/ and are located [here](http
 
 The conventions below all build upon community conventions found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md). If they are not specified to be altered by a competition-specific convention, then the community conventions were assumed. As a reminder, these competitions have bottom-deck blind-play enabled and also have a turn count emphasis -- they are designed with the goal of performing well in the competitions and may not be optimal for synchronous performance in normal games. In addition, they were playtested with a specific number of players in mind (as compared to being applicable for 3-6 players). They were also practiced with at-length (!) 
 
-Massive massive credits go to **rkass, avanderwalde, kevincaseytdk1, and kyle** for being a amazing parts of my competition teams and all of the awesome memories we have made together in these competitions.
+Massive massive credits go to **rkass, avanderwalde, kevincaseytdk1, and kyle** for being amazing parts of my competition teams and all of the awesome memories we have made together in these competitions.
 
 As usual, Alice, Bob, Cathy, Donald, and Emily are names used for players in that order. 
 Alice is assumed to be the person performing the action unless otherwise noted. 
