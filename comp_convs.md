@@ -25,19 +25,19 @@ For all 4 player competitions, the team composition included kevincaseytdk1 as w
 * No 5-Stalls are allowed in early game (unless left with 8 clues, DDA, or otherwise locked). 
 * Delaying blind-plays for priority reasons is strictly illegal.
 
-### Allowable Chop Moves
+#### Allowable Chop Moves
 * In early game, chop moves are only allowed on 2's and 5's.
 * This serves to faciliate reads on what the chop moved cards are for blind-plays without any additional context.
 
-### Priority Changes
+#### Priority Changes
 * Priority bluffs can always be done out of position. That is, if Alice commits a play out of priority, and Bob sees a playable card on finesse, Bob is not promised a playable or the matching card on finesse. Instead, Cathy is asked to blind-play.
 * For two playables that aren't completely known, the card that was most recently clued has the priority.
 
-### 4 Double Bluff Override
+#### 4 Double Bluff Override
 * When deciding between a 4 double bluff and a finesse, the player should assess whether or not it will take him or her 2+ blind-plays to fufill the finesse. If so, then it is a double bluff. Otherwise it is a finesse.
 * This comes at a very noticeable tradeoff of giving a 4 as a finesse when Bob has two or more cards of the matching suit.
 
-### 5s Chop Move Assumption
+#### 5s Chop Move Assumption
 * Even if a player is in DDA or is another stall situation, a 5 clue that is 1 away from chop is still read as a chop move.
 
 ## 4p Rainbow (6 Suits) [9/28]  -- "Clue Partners"
