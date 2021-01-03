@@ -369,7 +369,7 @@ Note: LHS does not ask for a play when someone is loaded.
 * Determining Ejection/Discharge spots does not skip over finesses. That is, if slot one is already finessed, slot two is still the ejection
 * As an example, If someone is 5 pulled their finesse positions remain the same for the purposes of special moves.
 
-### 4 Charm Finesse Elimination
+#### 4 Charm Finesse Elimination
 * If Alice clues Cathy the number 4 on turn 1, and Bob plays slot 4, Cathy writes negative 1 notes on her slot 1. If on a subsequent turn, Bob or Alice clue a non-playable 2, and this card which has negative 1 is still on finesse, Cathy should shift her finesse position and play her ejection slot since she knows her finesse is not a 1. 
 * Note that any clue which asks for an ejection, discharge, or charm from Cathy should still get those finesse positions without any shifting.
 
