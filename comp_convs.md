@@ -246,24 +246,25 @@ This competition features a specific detriment assigned to each player at the be
 * If a color clue is given by this player to another player’s chop, this clue should be interpreted as a save clue. The exception to this is when the clue giver’s detriment could not have inhibited them from giving a normal save clue. 
 * If the player receiving a CGR Save is loaded (has a play on this turn or known trash to discard), then this clue is a play clue.
 * If the player giving the CGR Save is meaningfully occupied (there was another player who could’ve given this clue and the clue giver had a play), then this clue is a play clue.
-  * Example (CGR Save):
-  * Dumbfounded Alice can only clue color and 3. Nothing is in the trash. Nothing is on the stacks.
-  * Alice clues blue to Bob on chop
-  * Bob sees that it’s impossible for Alice to 2 or 5 save Bob, so Bob marks his chop a blue 2 or blue 5
+	* Example (CGR Save):
+		* Dumbfounded Alice can only clue color and 3. Nothing is in the trash. Nothing is on the stacks.
+  	* Alice clues blue to Bob on chop
+  	* Bob sees that it’s impossible for Alice to 2 or 5 save Bob, so Bob marks his chop a blue 2 or blue 5
   
   * Example (Not a CGR Save)
-  * Dumbfounded Alice can only clue color and 5. Nothing is in the trash. All 2’s are on the stacks.
-  * Alice clues blue to Bob on chop
-  * Bob sees that Alice could have said 5 if this was a blue 5, so Bob marks his chop as a playable blue card
+  	* Dumbfounded Alice can only clue color and 5. Nothing is in the trash. All 2’s are on the stacks.
+  	* Alice clues blue to Bob on chop
+  	* Bob sees that Alice could have said 5 if this was a blue 5, so Bob marks his chop as a playable blue card
 
   * Example (LPC)
-  * Dumbfounded Alice can only clue color and 3. Nothing is in the trash. Nothing is on the stacks. Bob has a known playable g1.
-  * Alice clues blue to Bob on chop
-  * Bob sees that it’s impossible for Alice to 2 or 5 save Bob, but Bob also realizes he’s loaded. Since CGR Saves may not be given when loaded, Bob marks his chop as playable.
+  	* Dumbfounded Alice can only clue color and 3. Nothing is in the trash. Nothing is on the stacks. Bob has a known playable g1.
+  	* Alice clues blue to Bob on chop
+  	* Bob sees that it’s impossible for Alice to 2 or 5 save Bob, but Bob also realizes he’s loaded. Since CGR Saves may not be given when loaded, Bob marks his chop as playable.
+		
   * Example (Non-CGR Save Non-LPC) 
-  * Dumbfounded Alice can only clue color and 3. blue 4 is in the trash. Nothing is on the stacks. Bob has a known playable g1.
-  * Alice clues blue to Bob’s chop
-  * Bob sees that this clue may be targeting a blue 4, which is in the trash so his interpretation is that this is not a CGR Save, but it’s a normal save. Since we don’t play with LPC for normal save, Bob marks his slot 5 as blue 4.
+  	* Dumbfounded Alice can only clue color and 3. blue 4 is in the trash. Nothing is on the stacks. Bob has a known playable g1.
+  	* Alice clues blue to Bob’s chop
+  	* Bob sees that this clue may be targeting a blue 4, which is in the trash so his interpretation is that this is not a CGR Save, but it’s a normal save. Since we don’t play with LPC for normal save, Bob marks his slot 5 as blue 4.
 
 #### Fuming
 * Can only clue numbers and [random color].
@@ -302,8 +303,8 @@ This competition features a specific detriment assigned to each player at the be
 * Conventions
   * LPC is always on for the Quacker in non-stall situations. Every quack on a player that has a known trash or playable card is a play clue. Otherwise a clue to chop from Quacker is always read first as a save clue.
   * 4 Charms vs Double Bluff
-    * A quack to a 4 that is two-or-more-away from playable from Quacker Alice to Donald is a 4 charm (as opposed to a 4DB) if Bob sees that Cathy does not have a directly playable card on finesse. 
-    * If Bob cannot see Cathy’s finesse, we will play that this is a 4 double bluff.
+   	* A quack to a 4 that is two-or-more-away from playable from Quacker Alice to Donald is a 4 charm (as opposed to a 4DB) if Bob sees that Cathy does not have a directly playable card on finesse. 
+   	* If Bob cannot see Cathy’s finesse, we will play that this is a 4 double bluff.
   * 5 Number Discharges, Pulls, cm’s are turned into 5 color ejections.
   * Assume Finesse/Prompt if Possible
   * If you receive a quack as a play clue the target player must entertain that it’s through any cards on other peoples’ finesse or any clued cards which are playable.
@@ -311,7 +312,7 @@ This competition features a specific detriment assigned to each player at the be
   * If a 1 is played, then the other cards lumped together with it are assumed to be 1s and should be played until a lie is revealed. SEE the community duck [convention](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Duck.md#the-1s-promise-play-lie)
   * Order chop moves are off, as you don’t know which order
   * Note That Quacker can not give 5 stalls in the stall sequence, nor are fill-in clues distinguishable from burns:
-    * Just skip these in order, and assume that the clue is a burn from quacker or a locked hand save.
+   	* Just skip these in order, and assume that the clue is a burn from quacker or a locked hand save.
   * See: Duck Conventions Above
 
 ### Clue Recipient Restricted
@@ -328,16 +329,16 @@ This competition features a specific detriment assigned to each player at the be
 ### Clue Receiving Restricted Save (CRR Save)
 * If a color clue is to this player’s chop, this clue should be interpreted as a save clue. The exception to this is when the clue receiver’s detriment could not have inhibited them from receiving a normal save clue. If the player receiving a CRR Save is loaded (has a play on this turn or known trash to discard), then this clue is a play clue. This convention is the receiver’s analog to the CGR Save
   * Example (Not a CRR Save):
-    * Vulnerable Bob cannot receive number 2 or number 5 clues. Bob has a known playable g1 in his hand. There is a p4 in the trash.
-    * Alice clues Bob 1 purple touching his chop card
-    * Since there is a valid interpretation of this clue that makes it not a CR save but a normal save, Bob will interpret this as a normal save clue and will write p4 on his chop card.
+   	* Vulnerable Bob cannot receive number 2 or number 5 clues. Bob has a known playable g1 in his hand. There is a p4 in the trash.
+   	* Alice clues Bob 1 purple touching his chop card
+   	* Since there is a valid interpretation of this clue that makes it not a CR save but a normal save, Bob will interpret this as a normal save clue and will write p4 on his chop card.
   * Example (Loaded CRR Save)
-    * Vulnerable Bob cannot receive number 2 or number 5 clues. Bob has a known playable g1 in his hand. There is a p4 in the trash.
-    * Alice clues Bob 1 purple touching his chop card
-    * Since there is a valid interpretation of this clue that makes it not a CR save but a normal save, Bob will interpret this as a normal save clue and will write p4 on his chop card.
-    * Cathy observes that Bob's chop card is a p2 and concludes that Alice was performing a loaded CR save. Seeing that p2 is not playable
-    * Cathy plays her finesse position and it’s p1
-    * Bob goes back and marks his chop as p2
+   	* Vulnerable Bob cannot receive number 2 or number 5 clues. Bob has a known playable g1 in his hand. There is a p4 in the trash.
+   	* Alice clues Bob 1 purple touching his chop card
+   	* Since there is a valid interpretation of this clue that makes it not a CR save but a normal save, Bob will interpret this as a normal save clue and will write p4 on his chop card.
+   	* Cathy observes that Bob's chop card is a p2 and concludes that Alice was performing a loaded CR save. Seeing that p2 is not playable
+   	* Cathy plays her finesse position and it’s p1
+   	* Bob goes back and marks his chop as p2
 
 #### Vulnerable
 * Cannot receive a number 2 or number 5 clue
@@ -369,13 +370,13 @@ This competition features a specific detriment assigned to each player at the be
 * Turn off suboptimal bluff for clues given to follower
 * Conventions
   * **Blind Trust**
-    * If the follower being asked to blind play into a finesse that should play successfully, the follower will blind play into it. If the follower has no chance of blind playing any card that would work, the blind play/bluff is passed to the next player
+   	* If the follower being asked to blind play into a finesse that should play successfully, the follower will blind play into it. If the follower has no chance of blind playing any card that would work, the blind play/bluff is passed to the next player
   * **Certain Unplayable Finesse**
-    * Unplayable Finesses on Followers are certain finesses and are promised to be on slot 1.
-    * For example:
-      * All of the 3s are on the stacks and no 4s are on the stacks.
-      * Alice clues Cathy’s y5 with color. 
-      * Bob can’t play y4. This does not trigger the blind-trust, since every card that could be played is not legal to be played. Instead Bob will write y4 
+   	* Unplayable Finesses on Followers are certain finesses and are promised to be on slot 1.
+   	* For example:
+     	* All of the 3s are on the stacks and no 4s are on the stacks.
+     	* Alice clues Cathy’s y5 with color. 
+     	* Bob can’t play y4. This does not trigger the blind-trust, since every card that could be played is not legal to be played. Instead Bob will write y4 
 
 #### Indolent
 * Cannot play a card if the played on the last round
@@ -388,11 +389,11 @@ This competition features a specific detriment assigned to each player at the be
 * Be careful that they won’t be able to play slot 1 when thinking about order chop moves, fresh 1s, and general priority moves.
 * Conventions
   * **Finesse Shift**
-    * All finesse positions are shifted by 1 slot, so slot 2 is finesse, slot 3 is ejection, and slot 4 is discharge. This player does not have a charm slot, and when finessed or bluffed, plays s2 in order to resolve it immediately.
+   	* All finesse positions are shifted by 1 slot, so slot 2 is finesse, slot 3 is ejection, and slot 4 is discharge. This player does not have a charm slot, and when finessed or bluffed, plays s2 in order to resolve it immediately.
   * **Layered Finesse Ordering**
-    * Finesse ordering is slot 2, slot 1, slot 3, slot 4
-    * Finesse ordering goes from the left-most unclued card that is not s1, and then your second finesse position is what would be your left-most unclued card after playing that card.
-    * The layered finesse ordering does not apply until a finesse is called for and revealed to be layered. That is, a hesitant player should treat their finesse positions as if it only contained the 3 cards (slot 2,3,4) until a finesse is revealed to be clandestine/layered.
+   	* Finesse ordering is slot 2, slot 1, slot 3, slot 4
+   	* Finesse ordering goes from the left-most unclued card that is not s1, and then your second finesse position is what would be your left-most unclued card after playing that card.
+   	* The layered finesse ordering does not apply until a finesse is called for and revealed to be layered. That is, a hesitant player should treat their finesse positions as if it only contained the 3 cards (slot 2,3,4) until a finesse is revealed to be clandestine/layered.
   * **Blaze and Gentlemans**
 Gentlemans Discards go according to the layered finesse ordering. For example a gentleman’s discard on y4 is correct here with no fix: r4, y4, g4, b4. A discard of r4 on this hand would need a blaze for finesse position. A discard of g4 to this hand would need a blaze for ejection. A discard of b4 would need a blaze for discharge.
 #### Anxious
@@ -471,51 +472,51 @@ potential bluff here.
   * Order Chop Moves skip the next player (because they can’t be cm’ing a player they can’t see)
   * Bluff seat skips the next player. Blind Alice is in Cathy’s bluff seat. 
   * **Order Blind-Play Assumption**
-    * A player with the blind-spot will assume the following:
-    * A clue to them or their shrouded player is a direct play clue if they don’t have information to show otherwise (like a finesse card on the players they can see)
-    * Assume that a blind-plays are being asked for in order. That is, if a blind-play is being asked for and you can not see it on someone’s finesse, you should blind-play. You should not assume that the person you can not see will fulfill this. This does not apply for prompts.
-    * This has a couple of implications
-      * Rank clues to the shrouded player or to the person with the detriment can be utilized to self-bluff or self-finesse the blind-spot player. That is, if they can prove that any blind-plays will be needed, they will blind-play.
-      * Pestilent double bluffs are easier to construct when you know the first player will always blind-play from it. 
-      * Color clues to the shrouded or blind-spot player are almost never finesses on each other, unless it can be proven otherwise
-    * Another way of thinking about this is the following:
-      * The blind-spot player plays the game as if she has 8 cards but all as one player. If one of her cards is being prompted, that’s great, and she should entertain it. Otherwise she will blind-play as if she is playing 3-player.
+   	* A player with the blind-spot will assume the following:
+   	* A clue to them or their shrouded player is a direct play clue if they don’t have information to show otherwise (like a finesse card on the players they can see)
+   	* Assume that a blind-plays are being asked for in order. That is, if a blind-play is being asked for and you can not see it on someone’s finesse, you should blind-play. You should not assume that the person you can not see will fulfill this. This does not apply for prompts.
+   	* This has a couple of implications
+     	* Rank clues to the shrouded player or to the person with the detriment can be utilized to self-bluff or self-finesse the blind-spot player. That is, if they can prove that any blind-plays will be needed, they will blind-play.
+     	* Pestilent double bluffs are easier to construct when you know the first player will always blind-play from it. 
+     	* Color clues to the shrouded or blind-spot player are almost never finesses on each other, unless it can be proven otherwise
+   	* Another way of thinking about this is the following:
+     	* The blind-spot player plays the game as if she has 8 cards but all as one player. If one of her cards is being prompted, that’s great, and she should entertain it. Otherwise she will blind-play as if she is playing 3-player.
   
 * Here are a few examples, in all of these examples, Bob is the blind-spot player and Cathy is the shrouded player
   * EXAMPLE: Self-bluff
-    * Nothing is on the stacks
-    * Alice clues Bob a 3 clue. As long as Bob does not see a 1 in Donald’s finesse, Bob plays his finesse position (slot 2) as a self-bluff, not entertaining that it is a finesse on cards
+   	* Nothing is on the stacks
+   	* Alice clues Bob a 3 clue. As long as Bob does not see a 1 in Donald’s finesse, Bob plays his finesse position (slot 2) as a self-bluff, not entertaining that it is a finesse on cards
   * EXAMPLE: Basic Assumed Finesse/Bluff
-    * M1 is on the stacks. (Importantly, no 2s are on the stacks! Otherwise this is assumed direct-play)
-    * Alice clues Cathy a 3 clue. Rather than thinking that Cathy will blind-play, Bob will blind-play. 
+   	* M1 is on the stacks. (Importantly, no 2s are on the stacks! Otherwise this is assumed direct-play)
+   	* Alice clues Cathy a 3 clue. Rather than thinking that Cathy will blind-play, Bob will blind-play. 
   * EXAMPLE: Seen Reverse Finesse
-    * Nothing is on the stacks
-    * Alice clues Bob a 3 clue, and Bob sees a b1 in Donald’s finesse. Bob writes b2 on his slot 2 and waits a cycle.
+   	* Nothing is on the stacks
+   	* Alice clues Bob a 3 clue, and Bob sees a b1 in Donald’s finesse. Bob writes b2 on his slot 2 and waits a cycle.
   * EXAMPLE: Assumed Self-Finesse turns Pestilent (also works with not self-finesse)
-    * Nothing is on the stacks
-    * Alice clues Bob a 2 clue (on b2), and Bob does not see a 1 in Donald’s finesse. Thus, Bob plays her finesse-position. It plays as m1.
-    * Cathy sees that b2 will bomb as m2, and thus plays her finesse to resolve the pestilent double bluff 
-    * Note that in a normal hanabi game, such a move would never have been possible, since Bob would have waited for Cathy.
+   	* Nothing is on the stacks
+   	* Alice clues Bob a 2 clue (on b2), and Bob does not see a 1 in Donald’s finesse. Thus, Bob plays her finesse-position. It plays as m1.
+   	* Cathy sees that b2 will bomb as m2, and thus plays her finesse to resolve the pestilent double bluff 
+   	* Note that in a normal hanabi game, such a move would never have been possible, since Bob would have waited for Cathy.
   * EXAMPLE: Assumed Finesse gets a spicy true finesse through pestilence
-    * B2 is on the stacks.
-    * Alice clues Donald a b4 with blue. 
-    * Bob does not entertain that Cathy has b3, and decides to blind-play, which turn out to be m1. Cathy sees this is pestilent and blind-plays, playing b3. 
-    * Donald knows that the only card that could’ve caused this is a b4, and plays it as blue 4. 
+   	* B2 is on the stacks.
+   	* Alice clues Donald a b4 with blue. 
+   	* Bob does not entertain that Cathy has b3, and decides to blind-play, which turn out to be m1. Cathy sees this is pestilent and blind-plays, playing b3. 
+   	* Donald knows that the only card that could’ve caused this is a b4, and plays it as blue 4. 
   * EXAMPLE: Assumed Direct-Play over Potential Finesse
-    * B1 is on the stacks
-    * Alice clues Bob a 2 clue. As long as Bob doesn’t see a 1 in Donad’s finesse, Bob will play the 2, not entertaining that Cathy will need to play something.
+   	* B1 is on the stacks
+   	* Alice clues Bob a 2 clue. As long as Bob doesn’t see a 1 in Donad’s finesse, Bob will play the 2, not entertaining that Cathy will need to play something.
   * EXAMPLE: Assumed Direct-Play over Potential Prompt
-    * Cathy has a clued {r,m} card in her hand with no negative rank information
-    * Alice clues Bob one red in slot 3 with red
-    * Bob plays slot 3, not entertaining that it plays through Cathy’s red/rainbow card
+   	* Cathy has a clued {r,m} card in her hand with no negative rank information
+   	* Alice clues Bob one red in slot 3 with red
+   	* Bob plays slot 3, not entertaining that it plays through Cathy’s red/rainbow card
   * EXAMPLE: Assume Direct-Play (ILLEGAL CLUE)
-    * B1 is on the stacks
-    * Alice clues Cathy a blue card. Bob will just write b2/m1 on Cathy’s card. Even if it becomes Cathy’s turn and she sees that Bob as b2/m1 in her hand and it normally could’ve been a finesse, this is just a direct-play clue, as this will never resolve otherwise. Thus Cathy believes she has b2/m1
+   	* B1 is on the stacks
+   	* Alice clues Cathy a blue card. Bob will just write b2/m1 on Cathy’s card. Even if it becomes Cathy’s turn and she sees that Bob as b2/m1 in her hand and it normally could’ve been a finesse, this is just a direct-play clue, as this will never resolve otherwise. Thus Cathy believes she has b2/m1
 
   * **Unnecessary Blind-Play Assumption**
-    * If a push is done with known-trash on your shrouded player, you should assume that it is unnecessary. If you see no other blind-plays on other players, then the blind-play is on you.
+   	* If a push is done with known-trash on your shrouded player, you should assume that it is unnecessary. If you see no other blind-plays on other players, then the blind-play is on you.
   * **End-Game Push/Pull Assumption**
-    * In end-game, a blind-spot player should assume that the card that was clued has a meaning for what card location to be played (i.e. trash pull/push), and should assume an unnecessary trash pull/push over a double ignition. 
+   	* In end-game, a blind-spot player should assume that the card that was clued has a meaning for what card location to be played (i.e. trash pull/push), and should assume an unnecessary trash pull/push over a double ignition. 
   * Self-color bluffs are off for clues to this player. They would be passed to the shrouded player as a reverse finesse.
 
 #### Oblivious
@@ -528,36 +529,36 @@ potential bluff here.
 * Conventions
   * All deferred play clues not acted upon in order to do something non-critical or non-finesse become a pass bluff to the Oblivious player
   * **Reverse Blind-Play Identification**
-    * If a clue is given to the shrouded player and demands a blind-play from the oblivious player, there are three ways to signal the blind-play. 
-      * Discard
-      * Give an early save that the oblivious player could have given
-      * Show that you think you are in a stall situation (e.g. 5 stall)
-      * A 1 for 1 clue that could have been given by the oblivious player. Note that if the 1 for 1 is given to the oblivious player, then it may be possible that both were direct-play clues and the oblivious player has a crucial chop.
+   	* If a clue is given to the shrouded player and demands a blind-play from the oblivious player, there are three ways to signal the blind-play. 
+     	* Discard
+     	* Give an early save that the oblivious player could have given
+     	* Show that you think you are in a stall situation (e.g. 5 stall)
+     	* A 1 for 1 clue that could have been given by the oblivious player. Note that if the 1 for 1 is given to the oblivious player, then it may be possible that both were direct-play clues and the oblivious player has a crucial chop.
       
-    * Put in a very human way, the oblivious player will blind-play if your shrouded player did something weird and inefficient, when he/she could have just played.
-    * For those giving clues for this line, you should generally prefer to minimize stress and give this clue when a discard can demonstrate it, or just give direct-play clues.
-    * Be careful as the shrouded player when giving 1 for 1s that may look like a bluff when you have a direct-play. Your oblivious partner would blind play from your hesitation and it would be ambiguous whether it was bluffed down, or reverse blind identified. We assume it is a bluff if the card oblivious plays does not match the shrouded’s card
+   	* Put in a very human way, the oblivious player will blind-play if your shrouded player did something weird and inefficient, when he/she could have just played.
+   	* For those giving clues for this line, you should generally prefer to minimize stress and give this clue when a discard can demonstrate it, or just give direct-play clues.
+   	* Be careful as the shrouded player when giving 1 for 1s that may look like a bluff when you have a direct-play. Your oblivious partner would blind play from your hesitation and it would be ambiguous whether it was bluffed down, or reverse blind identified. We assume it is a bluff if the card oblivious plays does not match the shrouded’s card
     
-    * Example:
-      * all 1s on stack:
+   	* Example:
+     	* all 1s on stack:
         * Shrouded is given p2 as purple, oblivious has r2 on finesse. Shrouded gives a clue to another player b3 as blue. The r2 was bluffed down, b3 is not playable
         * Shrouded is given r3 as red, oblivious has r2 on finesse. Shrouded gives a clue to another player, b2 as blue. The r2 was reverse finessed, b2 is playable.
         * Shrouded is given r2 as red, oblivious has m2 on finesse. Shrouded gives a clue to another player, b2 as blue. The m2 was hesitation finessed b2 is playable. (Note this is prone to causing desyncs, try not to do this).
 
   * **Clue Target Clandestine Distinction**
-    * Tl;dr: simple finesse > clandestine/layered > pestilent double/bluff
-    * If you are oblivious, and a clue is not targeted at you, then you should assume finesses are clandestine/layered finesse over a pestilent double finesse/bluff
-    * If a clue is targeted at you, then you should assume simple finesse over clandestine/layered.
-    * Assume Cathy is Oblivious of Bob:
-      * EXAMPLE: Assumed simple finesse
+   	* Tl;dr: simple finesse > clandestine/layered > pestilent double/bluff
+   	* If you are oblivious, and a clue is not targeted at you, then you should assume finesses are clandestine/layered finesse over a pestilent double finesse/bluff
+   	* If a clue is targeted at you, then you should assume simple finesse over clandestine/layered.
+   	* Assume Cathy is Oblivious of Bob:
+     	* EXAMPLE: Assumed simple finesse
         * Alice clues an oblivious Cathy’s card with blue.
         * Bob plays b1 from finesse.
         * Cathy does not entertain that this is clandestine or a double finesse, and instead writes b2 on her card.
-      * EXAMPLE: Assumed clandestine finesse
+     	* EXAMPLE: Assumed clandestine finesse
         * Alice clues Donald’s blue 2 with blue.
         * Bob plays m1 from finesse.
         * Cathy sees that this is pestilent because it matches, but assumes that it will be clandestine instead.
-    * Additionally, in the edge case of an oblivious and blind-spot pairing together, all basic blind-plays (non double-bluffs) are being asked from the first player in play order.
+   	* Additionally, in the edge case of an oblivious and blind-spot pairing together, all basic blind-plays (non double-bluffs) are being asked from the first player in play order.
 
 #### Slow-witted
 * Cannot see cards in slot 1
@@ -572,40 +573,40 @@ potential bluff here.
   * When Slow-Witted is in between clue-giver and clue receiver all resulting blind-plays are true finesses and not OOP Bluffs when the Slow-Witted player doesn’t play. The finesse can be passed back to the slow-witted player by everyone else not playing into it.
 * Conventions
   * **Never Clue Impulsive**
-    * An accidental pick-up on impulsive may result in a blind-play bomb
+   	* An accidental pick-up on impulsive may result in a blind-play bomb
   * **Double blind-play assumption**
-    * If a move can be proven to not be a finesse and calls for two consecutive blind-plays, then slow-witted should play
+   	* If a move can be proven to not be a finesse and calls for two consecutive blind-plays, then slow-witted should play
   * **Accidental Unclued**
-    * If a slow-witted player clues a player and picks up slot 1 (which they can not see), then the team should write “unclued” on the card an should be treated as unclued (unless it is a 5 or the card has reached chop and the team can globally prove that its unique identity and that it is critical or known playable)
+   	* If a slow-witted player clues a player and picks up slot 1 (which they can not see), then the team should write “unclued” on the card an should be treated as unclued (unless it is a 5 or the card has reached chop and the team can globally prove that its unique identity and that it is critical or known playable)
   * **Trash Bluff over Trash Finesse**
-    * If a card is clued and someone needs to blind-play to demonstrate that it is trash, then the slow-witted player will act first.
+   	* If a card is clued and someone needs to blind-play to demonstrate that it is trash, then the slow-witted player will act first.
   * This person’s clues engage everyone’s finesse positions 1-off. Thus, any finesse this player gives is from slot 2. This player gives ejections to slot 3 and discharges to slot 4.
   * This means that it is possible for slow-witted to perform lines that no one else can.
   * **Single Finesse assumption**
-    * If a slow-witted player receives a play clue and their teammate plays into this as a finesse, the slow-witted player should assume this finesse is not layered or through other teammates’ hands and that they have the next playable card. The same is not true of prompts. A slow-witted player may receive a play clue which requires multiple cards to be prompted out. That said, a prompt+finesse cannot be given to slow-witted that takes multiple rounds to resolve.
-    * A slow-witted player should assume that a clue focused on their own slot 1 as if it were the slot were just 5 pull’ed. through already known playable cards or immediately playable (like a 5 pull). This has a couple of implications:
-    * A clue from Alice to Slow-witted Bob’s slot 1 is never a finesse on other players (would be a reverse finesse since Bob goes after Alice) and is always an immediate play or prompt on Bob’s s1. The only exception is if there is no card that could possibly play correctly. In this case, it is never an assumed self-finesse, but instead, an assumed finesse on Cathy or Donald.
+   	* If a slow-witted player receives a play clue and their teammate plays into this as a finesse, the slow-witted player should assume this finesse is not layered or through other teammates’ hands and that they have the next playable card. The same is not true of prompts. A slow-witted player may receive a play clue which requires multiple cards to be prompted out. That said, a prompt+finesse cannot be given to slow-witted that takes multiple rounds to resolve.
+   	* A slow-witted player should assume that a clue focused on their own slot 1 as if it were the slot were just 5 pull’ed. through already known playable cards or immediately playable (like a 5 pull). This has a couple of implications:
+   	* A clue from Alice to Slow-witted Bob’s slot 1 is never a finesse on other players (would be a reverse finesse since Bob goes after Alice) and is always an immediate play or prompt on Bob’s s1. The only exception is if there is no card that could possibly play correctly. In this case, it is never an assumed self-finesse, but instead, an assumed finesse on Cathy or Donald.
   * **Sanitation Bluff**: If a clue could be a finesse but would result in a matching finesse play that doesn’t resolve in time, a player must play their s1 in order to resolve it as a bluff. 
-    * Example:
-    * Nothing is on the stacks. Donald is slow-witted.
-    * Alice clues Donald’s b3 with blue. 
-    * Even though Bob sees that b1 is on Cathy’s slot 1 and thinks he has b2 that goes into Donald’s b3, Bob sees that there is a problem. Donald will play his card as b2 regardless of whether Bob has b2, because he is not entertaining anything in reverse. Thus, Bob must play something to resolve it. Bob plays his s1 and resolves the clue as a simple 3 bluff.
+		* Example:
+		* Nothing is on the stacks. Donald is slow-witted.
+		* Alice clues Donald’s b3 with blue. 
+		* Even though Bob sees that b1 is on Cathy’s slot 1 and thinks he has b2 that goes into Donald’s b3, Bob sees that there is a problem. Donald will play his card as b2 regardless of whether Bob has b2, because he is not entertaining anything in reverse. Thus, Bob must play something to resolve it. Bob plays his s1 and resolves the clue as a simple 3 bluff.
   * Reversed stacked finesesses are legal! If a 3 was given in the above example, Bob can have b2 in s2, and all will be good, as Donald knows his slot 1 isn’t playable. (not with color)
-    * EXAMPLE: LAYERED
-    * Nothing on the stacks
-    * Bob    b1 b2 . .
-    * Donald b3 . . . 
-    * Alice can clue 3 to Donald to call for 3 bluff, and blue to Donald to call for layered/stacked.
+		* EXAMPLE: LAYERED
+		* Nothing on the stacks
+		* Bob    b1 b2 . .
+		* Donald b3 . . . 
+		* Alice can clue 3 to Donald to call for 3 bluff, and blue to Donald to call for layered/stacked.
     
-    * EXAMPLE: CLANDESTINE
-    * b1/g1 on the stacks
-    * Bob g2 b2 . .
-    * Donald b3 . . .
-    * Alice can clue blue to Donald to call for simple bluff, and 3 to Donald to call for clandestine. (Ok because Donald sees b2 in slot 2)
-    * Try not to delay finesses (to give more finesses) if the original finesse leads into the slow-witted player’s hand. This is formalized as you can only delay a finesse if you force the slow-witted player to blind play, or you are getting an epic efficiency clue (defined as getting at least 3 blind plays) that you think only you can give.
+  	* EXAMPLE: CLANDESTINE
+   	* b1/g1 on the stacks
+   	* Bob g2 b2 . .
+   	* Donald b3 . . .
+   	* Alice can clue blue to Donald to call for simple bluff, and 3 to Donald to call for clandestine. (Ok because Donald sees b2 in slot 2)
+   	* Try not to delay finesses (to give more finesses) if the original finesse leads into the slow-witted player’s hand. This is formalized as you can only delay a finesse if you force the slow-witted player to blind play, or you are getting an epic efficiency clue (defined as getting at least 3 blind plays) that you think only you can give.
   * **Positional Bomb Interaction**
-    * A positional bomb of slot one does not immediately call for slow-witted’s slot 1. Slow-witted should wait.
-    * A positional bomb that calls for two plays when everyone sees that there are no plays available, calls for two plays from slot 1, one of which comes from the slow-witted player.
+   	* A positional bomb of slot one does not immediately call for slow-witted’s slot 1. Slow-witted should wait.
+   	* A positional bomb that calls for two plays when everyone sees that there are no plays available, calls for two plays from slot 1, one of which comes from the slow-witted player.
 
 ### Double Action
 *Characters in this class must perform two of a certain action on their turn if they want to perform that action*
@@ -623,13 +624,13 @@ potential bluff here.
   * If the player BEFORE panicky discards when there is a clue to be given not on finesse panicky is expected to give the clue
   * The panicky player will generally avoid discarding. This is formalized as - if there is a playable card in finesse of the bluff seat of the panicky player, the panicky player cannot discard. If there are any playables not on finesse, everyone can count on the panicky player not discarding. This is a bit tricky if there is a playable not on finesse and a duplicate of the playable on finesse for someone else - just be aware that some people might be counting on a play clue given.
   * **Pseudo Locked Hand**
-    * If Panicky has only 1 un-clued card to discard (and no known trash) and Panicky starts their turn with 3 or less clues, then they should be considered in a stall situation
-    * If they discard they would be forced to discard either a freshly drawn card or a clued card
+   	* If Panicky has only 1 un-clued card to discard (and no known trash) and Panicky starts their turn with 3 or less clues, then they should be considered in a stall situation
+   	* If they discard they would be forced to discard either a freshly drawn card or a clued card
   * **OOO Discards**
-    * If the player before the panicky player discarded, it either means they wanted the panicky player to give a clue or there were no clues to be given anywhere and panicky’s next two chop cards are good discards.
-    * If the latter is true, panicky should chop and 1 off chop
-    * If panicky discards chop first followed by 1 off chop, no information is conveyed
-    * If panicky discards 1 off chop first followed by chop, this is a delayed play clue (similar to 5 stall) on the player who goes before panicky
+   	* If the player before the panicky player discarded, it either means they wanted the panicky player to give a clue or there were no clues to be given anywhere and panicky’s next two chop cards are good discards.
+   	* If the latter is true, panicky should chop and 1 off chop
+   	* If panicky discards chop first followed by 1 off chop, no information is conveyed
+   	* If panicky discards 1 off chop first followed by chop, this is a delayed play clue (similar to 5 stall) on the player who goes before panicky
     
 #### Genius
 * When cluing, must clue a color and then a number (uses 2 clues)
@@ -638,15 +639,15 @@ potential bluff here.
   * If left with 1 clue, you cannot clue or the game terminates
 * Conventions
   * **Early Game Genius Exception**
-    * Everyone should be expecting genius to discard, even in early game
+   	* Everyone should be expecting genius to discard, even in early game
   * **Clue Meanings** 
-    * The focus from just the color clue alone is considered the focus of the clue pair. For the number clue, the genius should take the next best clue - which is
-      1. A useful clue (touching a new card: any of play, save chop. 5 stall). Note that the focus/chop should be what happens after the first clue. That is, the chop of the second clue may be different than the first one.
-      2. Burn by giving the number of any of the cards touched from the color clue. Ideally this is the “best fill in” (e.g. if it’s obvious that the color clue was a play clue it’s probably better to fill in the non-focused cards from the color clue). ‘Fill in” does not introduce any new cards
-      3. Burn by giving the number of any previously clued card not touched by your color clue. This is at the lowest tier to assist in calling for finesses. Note: this is still a valid burn if filling the number would bad touch, so this can’t self-finesse.
+   	* The focus from just the color clue alone is considered the focus of the clue pair. For the number clue, the genius should take the next best clue - which is
+     	1. A useful clue (touching a new card: any of play, save chop. 5 stall). Note that the focus/chop should be what happens after the first clue. That is, the chop of the second clue may be different than the first one.
+     	2. Burn by giving the number of any of the cards touched from the color clue. Ideally this is the “best fill in” (e.g. if it’s obvious that the color clue was a play clue it’s probably better to fill in the non-focused cards from the color clue). ‘Fill in” does not introduce any new cards
+     	3. Burn by giving the number of any previously clued card not touched by your color clue. This is at the lowest tier to assist in calling for finesses. Note: this is still a valid burn if filling the number would bad touch, so this can’t self-finesse.
       
-    * The person who gets the clue will probably assume the number clue was useless. But other players can see whether this was violated and then know it is a finesse
-    * You are allowed to clarify the meaning of your color clue with the number clue. For example you can clue color to chop, then 5 to chop. This is just a normal 5 save clue and no cards will play from this, although very inefficient and should not be chosen generally.
+   	* The person who gets the clue will probably assume the number clue was useless. But other players can see whether this was violated and then know it is a finesse
+   	* You are allowed to clarify the meaning of your color clue with the number clue. For example you can clue color to chop, then 5 to chop. This is just a normal 5 save clue and no cards will play from this, although very inefficient and should not be chosen generally.
 
 ### Order Reversal
 * Contrarian is the only character in this class
@@ -695,21 +696,20 @@ potential bluff here.
 * Conventions
   * All clues given to impulsive players which touch slot 1 are focused on slot 1.
   * Color clues to chop that are just-in-time may be saves, as they might just be given to avoid s1.
-  * **Flaming finesse:**
-    * If a double play needs to happen to prevent an impulsive bomb, players should treat this like blaze. 
-      * Example:
-      * Alice clues Donald’s slot 1, a blue 4 which is 2 away from playable. 
-      * Bob sees that Cathy does not have blue 3 on finesse, a card that Cathy MUST play in order for there not to be a bomb. Instead Bob sees Cathy has b3 on the discharge slot and Alice plays the discharge slot (b2) to communicate it. (similar to blaze)
-      * In addition, if a play of a unique card is being demanded from Cathy from the wrong slot, it also calls for a flaming finesse for a one-away-from-playable clue.
-
-      * Example:
-      * Alice clues an impulsive Donald’s slot 1 as y5, and y3 is on the stacks.
-      * Bob sees Cathy’s unclued y4 in slot 2 (second-finesse position). 
-      * If Bob can prove that he can not play y4 from finesse or prompt, he should play his matching-finesse position. That is, if:
-      * Bob has negative yellow information for his entire hand, OR
-      * Bob sees 2 y4s in Cathy’s hand, both not on finesse OR
-      * Bob sees a y4 in Donald’s hand or in the trash
-      * Then Bob should play the matching finesse position of Cathy’s y4 to signal to Cathy which card is the y4. 
+  * **Flaming finesse**
+   	* If a double play needs to happen to prevent an impulsive bomb, players should treat this like blaze. 
+     	* Example
+      	* Alice clues Donald’s slot 1, a blue 4 which is 2 away from playable. 
+      	* Bob sees that Cathy does not have blue 3 on finesse, a card that Cathy MUST play in order for there not to be a bomb. Instead Bob sees Cathy has b3 on the discharge slot and Alice plays the discharge slot (b2) to communicate it. (similar to blaze)
+      	* In addition, if a play of a unique card is being demanded from Cathy from the wrong slot, it also calls for a flaming finesse for a one-away-from-playable clue.
+			* Example
+      	* Alice clues an impulsive Donald’s slot 1 as y5, and y3 is on the stacks.
+      	* Bob sees Cathy’s unclued y4 in slot 2 (second-finesse position). 
+      	* If Bob can prove that he can not play y4 from finesse or prompt, he should play his matching-finesse position. That is, if:
+      	* Bob has negative yellow information for his entire hand, OR
+      	* Bob sees 2 y4s in Cathy’s hand, both not on finesse OR
+      	* Bob sees a y4 in Donald’s hand or in the trash
+      	* Then Bob should play the matching finesse position of Cathy’s y4 to signal to Cathy which card is the y4. 
 
 ### General Conventions
 #### Unnecessary Chop Move Assumption
@@ -723,15 +723,15 @@ potential bluff here.
 #### Stall sequence
   1. Clue an untouched playable card or a critical save
   2. A save clue
-  3. 5 stall
-  4. Tempo clue (if there is a higher ranked available clue in the stall sequence to give and a tempo clue is given, it calls for a TCCM)
-  5. Locked Hand Save: save a non-critical card on chop (not if it will lock someone’s hand)
-  6. Fill in 
-  7. Hard burn (given in a “top down” order starting with the very next player you’re able to clue)
+	3. 5 stall
+	4. Tempo clue (if there is a higher ranked available clue in the stall sequence to give and a tempo clue is given, it calls for a TCCM)
+	5. Locked Hand Save: save a non-critical card on chop (not if it will lock someone’s hand)
+	6. Fill in 
+	7. Hard burn (given in a “top down” order starting with the very next player you’re able to clue)
     * Start with any 5’s if available, then work down in rank
-    * Prefer 5 on the player who will take a turn after you, then 5 on next next player, then 5 on next next next player. Then 4 on next player.  
-  8. Clue Restricted Save
-  9. Save any card not on chop (really try to avoid this b/c it will look like a finesse- maybe we even remove this from the available options)
+    * Prefer 5 on the player who will take a turn after you, then 5 on next next player, then 5 on next next next player. Then 4 on next player.
+	8. Clue Restricted Save
+	9. Save any card not on chop (really try to avoid this b/c it will look like a finesse- maybe we even remove this from the available options)
 
 #### 1-away screams only on strictly critical cards (only one copy left)
 
