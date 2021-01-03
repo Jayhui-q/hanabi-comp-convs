@@ -244,7 +244,7 @@ So in a stall situation, if Cathy has a card that could've been focused in as a 
 * A clue focusing a playable card on Bob is a trash fix. On Cathy, it’s a DPE.
 * DPEs can only be given on clued cards (not finessed, known "playables")
 
-## 3p Prism (6 Suits) 11/09
+## 3p Prism (6 Suits) [11/09]
 ### General Notes
 * LPC on always, OPC is off. DDA is off (for responsibility instead)
 * Players are loaded if they have globally known trash
@@ -373,7 +373,7 @@ Note: LHS does not ask for a play when someone is loaded.
 * If Alice clues Cathy the number 4 on turn 1, and Bob plays slot 4, Cathy writes negative 1 notes on her slot 1. If on a subsequent turn, Bob or Alice clue a non-playable 2, and this card which has negative 1 is still on finesse, Cathy should shift her finesse position and play her ejection slot since she knows her finesse is not a 1. 
 * Note that any clue which asks for an ejection, discharge, or charm from Cathy should still get those finesse positions without any shifting.
 
-## 4p Rainbow (6 Suits) - Detrimental Characters 
+## 4p Rainbow (6 Suits) [12/14] - Detrimental Characters 
 This competition features a specific detriment assigned to each player at the beginning of the game. Below are conventions and strategies by detriment.
 ### Clue Giving Restricted 
 *Characters in this class are limited by the types of clues they may give*
@@ -948,5 +948,5 @@ Highest on the list should prefer discarding, and lowest should prefer not disca
 
 # Non-Series Competitions 
 
-## 5p No Variant - "No Hats"
+## 5p No Variant [1/4/21] - "No Hats"
 * Coming soon!
