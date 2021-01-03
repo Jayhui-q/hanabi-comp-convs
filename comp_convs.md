@@ -708,18 +708,18 @@ potential bluff here.
   * Color clues to chop that are just-in-time may be saves, as they might just be given to avoid s1.
   * **Flaming finesse**
    	* If a double play needs to happen to prevent an impulsive bomb, players should treat this like blaze. 
-     	* Example
-      	* Alice clues Donald’s slot 1, a blue 4 which is 2 away from playable. 
-      	* Bob sees that Cathy does not have blue 3 on finesse, a card that Cathy MUST play in order for there not to be a bomb. Instead Bob sees Cathy has b3 on the discharge slot and Alice plays the discharge slot (b2) to communicate it. (similar to blaze)
-      	* In addition, if a play of a unique card is being demanded from Cathy from the wrong slot, it also calls for a flaming finesse for a one-away-from-playable clue.
-			* Example
-      	* Alice clues an impulsive Donald’s slot 1 as y5, and y3 is on the stacks.
-      	* Bob sees Cathy’s unclued y4 in slot 2 (second-finesse position). 
-      	* If Bob can prove that he can not play y4 from finesse or prompt, he should play his matching-finesse position. That is, if:
-      	* Bob has negative yellow information for his entire hand, OR
-      	* Bob sees 2 y4s in Cathy’s hand, both not on finesse OR
-      	* Bob sees a y4 in Donald’s hand or in the trash
-      	* Then Bob should play the matching finesse position of Cathy’s y4 to signal to Cathy which card is the y4. 
+		* Example
+			* Alice clues an impulsive Donald’s slot 1, a blue 4 which is 2 away from playable. 
+			* Bob sees that Cathy does not have blue 3 on finesse, a card that Cathy MUST play in order for there not to be a bomb. Instead Bob sees Cathy has b3 on the discharge slot and Alice plays the discharge slot (b2) to communicate it. (similar to blaze)
+			* In addition, if a play of a unique card is being demanded from Cathy from the wrong slot, it also calls for a flaming finesse for a one-away-from-playable clue.
+		* Example
+			* Alice clues an impulsive Donald’s slot 1 as y5, and y3 is on the stacks.
+			* Bob sees Cathy’s unclued y4 in slot 2 (second-finesse position). 
+			* If Bob can prove that he can not play y4 from finesse or prompt, he should play his matching-finesse position. That is, if:
+			* Bob has negative yellow information for his entire hand, OR
+			* Bob sees 2 y4s in Cathy’s hand, both not on finesse OR
+			* Bob sees a y4 in Donald’s hand or in the trash
+			* Then Bob should play the matching finesse position of Cathy’s y4 to signal to Cathy which card is the y4. 
 
 ### General Conventions
 #### Unnecessary Chop Move Assumption
