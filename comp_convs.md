@@ -4,7 +4,7 @@ This document records all of the Hanabi convention history for all of the Hanabi
 
 These competitions are played on https://hanab.live/ and are located at https://hanabi-competitions.com/.
 
-The conventions below all build upon community conventions found at https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md. If they are not specified to be altered by a competition-specific convention, then the community conventions were assumed. As a reminder, these competitions have bottom-deck blind-play enabled and also have a turn count emphasis -- they are designed with the goal of performing well in the competitions and may not be optimal for synchronous performance in normal games. They were also practiced with at-length (!) 
+The conventions below all build upon community conventions found at https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md. If they are not specified to be altered by a competition-specific convention, then the community conventions were assumed. As a reminder, these competitions have bottom-deck blind-play enabled and also have a turn count emphasis -- they are designed with the goal of performing well in the competitions and may not be optimal for synchronous performance in normal games. In addition, they were playtested with a specific number of players in mind (as compared to being applicable for 3-6 players). They were also practiced with at-length (!) 
 
 Massive massive credits go to **rkass, avanderwalde, kevincaseytdk1, and kyle** for being a amazing parts of my competition teams and all of the awesome memories we have made together in these competitions.
 
@@ -121,12 +121,122 @@ These conventions refer to when a player has unknown 1's in their hand. They are
 * If you cannot use either of the other conventions to get a particular card to play as a last ditch desperation you can try a number clue to give the slot to be played. Do not use this unless there is no other mechanism - the end game color choice signaling red may be stronger.
 
 ## 3p Duck (5 Suits) 10/26
+### General Notes
+* All hyphenated conventions apply unless this document conflicts with hyphenated, in which case conventions in this document take precedence. See https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Duck.md and https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md (In particular, 1’s promise, 3 discharge, and 4 charm)
+* Keep an eye out for occupied play clues
 
+### Conventions Switched Off
+* Bluffs (except for when bluffing out 5's)
+* Hesitation Blind-Play
+* Tempo Clue Chop Moves, Order Chop Moves
+* DDA
+* 5 Chop Move, Stall, Pull, and its extensions
+* Priority Finesse, Prompt, Bluff
+* Double Finesses
+* Fake Saves
+
+### Additional Conventions
+#### LPC and OPC
+* Loaded Play Clues and Occupied Play Clues are always on the entire game, even in early game
+* Addendum: For clarity, occupied play clues are stricly only when Alice clues Cathy
+
+#### Promised Play Order
+* Play clues and prompts should always be played in the order that they were received (unless it is clear that they are both directly playable)
+
+#### 1's Re-Clue Order
+* Often in the beginning of the game 1’s are clued on chop and then subsequently re-clued in order to communicate that they are 1’s. In this case, the recipient should play their 1’s from right to left, stopping after playing a non-1.
+
+#### DDA Responsbility
+* DDA is off. In the event that the next two players do not have a play and they have identical cards on chop, you should save the first player's discard. This clue is read as a save, unless the discard that occurs does not match the initial clue. 
+  * The player who received the clue should mark down all cards in trash as well as the very next player’s chop (and play or other save interpretations)
+* If you are in DDA and see a play clue or save clue to give you must give it
+
+#### 2/5 Color Save Finesse 
+* When a color clue rather than number is clearly given (via other touched cards) to a non critical 2 or a 5, this is read as a finesse/ejection (as it would be in normal game).
+
+#### Modified Stall Sequence
+If a player is screamed at, has 8 clues without a playable, or has a locked hand, they should follow the below priority when cluing. 
+  1. Normal play/save clue 
+  2. Burn clue (refocuses a card that was already clued. Should not trigger a DPE or a tempo clue if no normal play/saves can be seen) 
+  3. Locked Hand Save (not promised good) 
+
+So in a stall situation, if Cathy has a card that could've been focused in as a burn, but Alice clues something not playable /saveable on Cathy's chop instead, Bob reads it as a finesse, or a special move. Alternatively, if Cathy sees that a direct play clue/save clue could've been given (not a possible dupe), then Cathy knows that a burn to her was indeed a tempo clue or a clue to chop was a play/save
+
+#### UTD Suppress
+* Unknown Trash Discharges are turned off (this includes duplication discharges) until all of the 1’s have been played, because at this point 3 discharges are impossible. 
+* This is done so that a player knows whether or not to write a 3 on their card (via a 3 discharge) or kt.
+
+#### Double Finesse Suppress
+* Double Finesses are turned off in favor of ejections, discharges, and charms which may be performed out of order as well. 
+* For example:
+  * Red 1 on stacks. Bob has a Red 2 which has been clued as a play. Alice quacks at Bob's Blue 3. Bob plays Red 2. Cathy plays her discharge signaling that Bob’s Blue 3 was clued as a 3 discharge.
+
+#### Chop Moved Finessable 
+* Cards which have been chop moved are counted as untouched when counting finesse positions and are therefore eligible to be finessed, ejected, discharged, and charmed.
+
+#### Early 5-5 Blast
+* In early game, if someone has a fifth finesse position, a 5 clue to a two or more away from playable card that’s not on chop is a signal for the next person to play their fifth finesse position. (early game ends when unknown trash gets discarded)
+* If a player does not have a fifth finesse position, it’s a normal 5 ejection
+* Cannot be performed out of position
+
+#### Special Move Finesse Default
+* If a special move is given and the target does not have the corresponding finesse position, it’s a finesse. For example, if a 3 discharge is given from Alice to Cathy but Bob doesn’t have a 3rd finesse position, this is a finesse.
+
+#### Half Information Prompt Rule
+* When deciding between a prompt or a finesse, a prompt should be chosen if the information on that card matches at least half-way. That is, after getting information about a previous clue that could’ve been either a rank or a color clue, those respective colors count towards choosing a prompt over a finesse to connect into a matching clue. NOTE: this rule only applies to cards that are not known to be playable. 
+* Example 1:
+  * Red 1 and Blue 1 are on the stacks 
+  * Alice quacks at Bob’s slot 1 and slot 2
+  * Bob plays slot 1 and sees that it is red 2. Bob marks that his slot 2 is either red or 2. 
+  * Cathy clues a blue 3 to Alice, and Bob is promised b2 on his slot 2, unless Cathy blind-plays.
+* Example 2:
+  * Alice quacks at Cathy’s slot 1 and 2
+  * Bob plays his charm slot, indiciating to Cathy that her slot 1 is a 4. 
+  * Later, Alice clues Bob a b3, which is not playable.
+  * Cathy should not play her prompt. Instead the clue is either a finesse or a special move.
+
+#### Chop Prompt Exception
+* Cards clued on chop in early game should never be played as 1-prompts or 2-prompts unless there is context to rule them out as 5’s
+
+#### Out-Of-Position Specials
+* Because of play-order promise, special moves can be done out of position with clarity. For clarity, the special moves can only be done a player that is already loaded. 
+* Otherwise, it is a finesse or prompt.
+
+#### Double Save Rewrite
+* If a clue to chop that was initially seen as LPC is followed up immediately by another clue to chop, both should be assumed as saves.
+
+#### Unnecessary dupe 1's at Beginning Game
+* If a player holds 1s and decides to give 1s as a play clue, and the very next player has a blast spot, then the next player should eject.
+
+#### Re-clue Right Focus Exception
+* If a card is already determined, then a clue that re-clues more than 1 card is focused on the non-determined card
+
+#### End-Game Double Plays
+* When all 4 cards are either on the stacks or globally known, then it is possible to perform an unnecessary trash bluff. Once this is given, two plays are called for, read as a trash pull or trash push. If neither of these are playable, then it is a special move and not a trash bluff. 
+  * For example: Alice clues Cathy trash on slot 3 Because all 4’s are down or clued, Cathy could not possibly read it as a finesse if Bob plays slot 1. Bob suspects this is an unnecessary trash pull. Bob looks at Cathy’s slot 4, to the right of the trash card. If it is playable, Bob knows that he should play finesse to trigger the trash pull. 
+  * If Bob doesn’t see that the trash push/pull is playable, then Bob should discharge like a normal UTD. If Cathy sees this UTD was unnecessary and trash would not be valuable, Cathy plays her finesse position. Beyond positional misplays, this covers Bob’s slot 1 and slot 3 and any slot of Cathy
+
+#### Playable 4’s non-screamable
+* A player may not scream to save a playable, non-critical 4
+
+#### 2 Save Obligation 
+* Without context, you have to save 2 even if you might have the matching 2 in hand. 
+
+#### Sarcastic Assumption
+* You don’t need half information to assume sarcastic. 
+* That said, gentlemans are still possible if you can rule out sarcastic. 
+
+#### "Tempo clues" may be delayed play clues, or finesses
+
+#### DPE vs Trash Fix
+* A clue focusing a playable card on Bob is a trash fix. On Cathy, it’s a DPE.
+* DPEs can only be given on clued cards (not finessed, known "playables")
 
 ## 3p Prism (6 Suits) 11/09
-* Coming Soon! I got more interested in writing up the Detrimental Characters one, and have been writing for a while. 
+* Coming Soon! I have been writing for a while.
 
 ## 4p Rainbow (6 Suits) / Detrimental Characters 
+* Coming Soon! 
 
 # Non-Series Competitions 
 
