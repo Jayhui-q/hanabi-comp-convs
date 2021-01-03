@@ -1,6 +1,6 @@
 # Competition Convention Catalogue
 
-This document records all of the Hanabi convention history for all of the Hanabi competitions that I played in previously, and will be regularly updated (likely with up to a month's delay) after a competition ends. Our hope is that these conventions serve as inspiration for fellow competitors, future community conventions, or as just fun ideas to ruminate on about the way the game could be played. 
+This document records all of the Hanabi convention history for all of the Hanabi competitions that I played in previously, and will be regularly updated after a competition ends (may take up to a month, depending on how busy I get!). Our hope is that these conventions serve as inspiration for fellow competitors, future community conventions, or as just fun ideas to ruminate on about the way the game could be played. 
 
 These competitions are played on https://hanab.live/ and are located [here](https://hanabi-competitions.com/).
 
