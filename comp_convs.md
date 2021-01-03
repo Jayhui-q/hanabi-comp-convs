@@ -1,6 +1,6 @@
 # Competition Convention Catalogue
 
-This document records all of the Hanabi convention history for all of the Hanabi competitions that I played in previously, and will be regularly updated (with up to a month's delay) after a competition ends. Our hope is that these conventions serve as inspiration for fellow competitors, future community conventions, or as just fun ideas to ruminate on about the way the game could be played. 
+This document records all of the Hanabi convention history for all of the Hanabi competitions that I played in previously, and will be regularly updated (likely with up to a month's delay) after a competition ends. Our hope is that these conventions serve as inspiration for fellow competitors, future community conventions, or as just fun ideas to ruminate on about the way the game could be played. 
 
 These competitions are played on https://hanab.live/ and are located [here](https://hanabi-competitions.com/).
 
@@ -13,13 +13,13 @@ Alice is assumed to be the person performing the action unless otherwise noted.
 
 [2020 T3](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#2020-t3-standard-series)
 * [3p No Variant](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-no-variant-914)
-* [4p Rainbow 6 -- Clue Partners](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits-928-----clue-partners)
+* [4p Rainbow 6 - Clue Partners](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits-928-----clue-partners)
 * [3p Duck](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-duck-5-suits-1026)
 * [3p Prism 6](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-prism-6-suits-1109)
 * [4p Rainbow 6 - Detrimental Characters](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits--detrimental-characters)
 
 [Non-Series Comps](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#non-series-competitions)
-* [5p No Variant -- No Hats](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#5p-no-variant-6-suits--no-hats)
+* [5p No Variant - No Hats](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#5p-no-variant-6-suits--no-hats)
 
 # 2020 T3 Standard Series
 Results can be found [here](https://hanabi-competitions.com/series/2020%20T3%20Standard)
@@ -50,7 +50,7 @@ For all 4 player competitions, the team composition included kevincaseytdk1 as w
 #### 5s Chop Move Assumption
 * Even if a player is in DDA or is another stall situation, a 5 clue that is 1 away from chop is still read as a chop move.
 
-## 4p Rainbow (6 Suits) [9/28]  -- "Clue Partners"
+## 4p Rainbow (6 Suits) [9/28]  - "Clue Partners"
 In this competition, players were only allowed to clue accross the table. That is, Alice may only clue Cathy, Bob may only clue Donald, Cathy may only clue Alice, and Donald may only clue Bob.
 
 ### General Notes
@@ -247,7 +247,7 @@ So in a stall situation, if Cathy has a card that could've been focused in as a 
 ## 3p Prism (6 Suits) 11/09
 * Coming Soon! I got carried away by Detrimental Characters.
 
-## 4p Rainbow (6 Suits) / Detrimental Characters 
+## 4p Rainbow (6 Suits) - Detrimental Characters 
 This competition features a specific detriment assigned to each player at the beginning of the game. Below are conventions and strategies by detriment.
 ### Clue Giving Restricted 
 *Characters in this class are limited by the types of clues they may give*
@@ -822,5 +822,5 @@ Highest on the list should prefer discarding, and lowest should prefer not disca
 
 # Non-Series Competitions 
 
-## 5p No Variant (6 Suits) / "No Hats"
+## 5p No Variant (6 Suits) - "No Hats"
 * Coming soon!
