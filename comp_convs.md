@@ -19,7 +19,7 @@ Alice is assumed to be the person performing the action unless otherwise noted.
 * [4p Rainbow 6 - Detrimental Characters](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits--detrimental-characters)
 
 [Non-Series Comps](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#non-series-competitions)
-* [5p No Variant - No Hats](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#5p-no-variant-6-suits--no-hats)
+* [5p No Variant - No Hats](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#5p-no-variant---no-hats)
 
 # 2020 T3 Standard Series
 Results can be found [here](https://hanabi-competitions.com/series/2020%20T3%20Standard)
@@ -245,7 +245,133 @@ So in a stall situation, if Cathy has a card that could've been focused in as a 
 * DPEs can only be given on clued cards (not finessed, known "playables")
 
 ## 3p Prism (6 Suits) 11/09
-* Coming Soon! I got carried away by Detrimental Characters.
+### General Notes
+* LPC on always, OPC is off. DDA is off (for responsibility instead)
+* Players are loaded if they have globally known trash
+* No Early-Game 5 Stalls (unless otherwise in a stall situation)
+* You should CM dupe 2’s at the beginning
+* We ignore CMs when considering finesse positions  (ie: CMed cards can be assigned a finesse position).
+* No Baton Discard. See: No Batons.
+* 3 Saves are On in mid-game.
+* One away screams for non-critical cards are off
+* You can scream normally for non-critical 3s
+
+### Other Conventions
+#### Prism Matching Rule
+* When a color clue is given that demands a blind-play, the play “matches” only if it is the very next color of the card played. I.e. yellow matches a prism red 1 play. Green matches a prism yellow 2 play
+#### Occupied Inverted 5s Chop Move
+* A 5 save given from Alice to Cathy when Alice is occupied, and the 5 is 2 or more away from playable, asks Cathy to Chop Move as well.
+#### BOI5CM Discharge
+* If the OI5CM is given and the chop moved card is globally known trash, it asks for a discharge.
+#### Early Game Chop Move Candidates
+* Chop moves in early game can be a 2,3,5 or a duplicate of a card on someone’s chop.
+* If multiple cards are chop moved in early game, not each one has to be a 2, 3, or 5. 
+#### Elimination 5’s Chop Move
+* If a 5's chop move asks you to discard the last card with an elimination note, then the chop moved card is the actual card, not the card that you’ve been permitted to discard.
+#### Special 4 Clues
+* If a clue to a 4 is given by Alice and it is two or more away from playable, it is not a direct play clue.
+	* Rank:
+		* If Bob sees that Cathy’s finesse position is directly playable, then it is a double bluff. 
+		* Otherwise, it is a 4 charm. If there is no charm position, then it is a double finesse/bluff.
+	* Color:
+		* 4 Charm only. Can not be an ejection, as this would read as a 5CE. If there is no charm position, this is a double finesse.
+		
+#### The Sly Gentleman
+* A gentleman’s discard from Alice for the wrong spot on Cathy must call for more than one play. 
+* If it is not behind other playables, it is a call for Bob to play his matching finesse position. (Normal Blaze)
+* If it is behind other playables, then Bob entertains that Alice was trying to get both as a layered gentleman’s with a fix. and should give a fix clue. 
+* If a fix clue is not possible, then Alice wanted Bob to blaze for the leftmost adjacent layer. 
+* For example:
+	* B1 on stacks. Alice has known b2 in hand. Alice discards 
+	* Cathy has r3, r1, b2 in slots 1,2,3
+	* Bob can simply give 3 to fix. Bob should fix it. This also applies if it were red 1, red 3, blue 2.
+	* Had Cathy had r2, r1, b2 in slots 1,2,3, Bob can not fix with reds or rank. Thus, Bob should play his second finesse position to signal to start the gentleman’s at slot 2.
+	* Had Cathy, had r1,b1,b2, Bob can not fix with reds or rank. Thus, Bob should play his third finesse position to signal to start the gentleman’s at slot 3 (not slot 1, as this would require a blaze and a fix).
+
+#### Dupe 1’s is a discharge
+#### Declined 5 pull charm (4th finesse)
+  * Illegal if 4 is used as the clued playable card that could’ve been gotten with a 5 pull, since this would conflict with 4 charm.
+
+#### No Batons
+* All batons should be read as layered gentlemans discards. For example:
+	* Nothing is on the stacks
+	* Alice discards a known b2
+* Bob and Cathy should assume that between the two of them they have b1, b2 on finesse
+* If Bob sees b2 in Cathy’s hand 
+* If Bob does not also see b1, Bob should play the finesse position of Cathy’s b2. If it’s not a matching b1, it is a globally known bluff
+* If Bob sees b1 in Cathy’s hand, refer to the Sly Gentleman for Bob’s course of action.
+* If Bob does not see b2 in Cathy’s hand
+* If Bob does not also see b1 in Cathy’s hand, Bob should play his finesse until he plays b1, b2
+* If Bob sees b1 in Cathy’s hand, Bob should hesitate and let Cathy play her b1. After Cathy plays her b1, Bob should play the matching finesse position of Cathy’s b1 play if Alice does not fix.
+
+#### 1-1 Gentleman’s Chop Move
+* If a gentleman’s discard only gets one card to be played, the recipient of the discard should chop move once. 
+
+#### DDA Responsibility
+* DDA is off. In the event that the next two players do not have a play and they have identical cards on chop, you should save the first player's discard. This clue is read as a save, unless the discard that occurs does not match the initial clue. 
+* The player who received the clue should mark down the very next player’s chop in addition to play or other save interpretations)
+* If you are in traditional DDA and see a play clue or save clue to give you must give it
+
+#### Modified Stall Sequence
+  1. Play/Save Clue
+	2. Good Locked Hand Save. An LHS with color may not be given on turn 1.
+	3. Tempo clue
+	4. 5 Stall
+	5. Fill in
+	6. Hard Burn
+	7. Bad Locked Hand Save
+
+Note: LHS does not ask for a play when someone is loaded.
+
+#### Unnecessary Chop Move Assumption
+* All UTDs and trash bluffs are unnecessary. All cards to the right of the right-most clued card should be chop moved.
+
+#### No Single Bluffs by Re-cluing
+* You cannot bluff by re-cluing already clued cards, though you can bluff by cluing a chop-moved card with no positive information on it. DOUBLE BLUFFS ARE LEGAL
+* Since you can’t bluff by re-cluing an already clued card, if Bob plays a finesse into a re-clued card and it doesn’t connect to Cathy’s re-clued card, Cathy should play her prompt if it might lead into her clued card, otherwise she should play her finesse and this will resolve as a double bluff.
+
+#### 4 Single Bluff Disambiguation
+* If Alice clues Cathy, a 4 number clue can not be a single bluff (unless all twos are down)--it must be either a 4 charm or 4 double bluff. Alternatively, a 4 number clue to Bob may be a single one-away-bluff. 
+
+#### The Emergency P5/I5 Signal
+* If all 4’s are on the stacks or clued, then any clues that are not hard burns that involve trash must be unnecessary, because 5’s is a clear play clue. If a player sees that the unnecessary move does not have a logical interpretation, (for example, Cathy does not have a playable finesse) it is a sign that something is wrong. Most likely, that the purple 5 and prism 5 are in a situation that can not be clued directly as a play.
+
+#### Finesse, Double Bluff Discernment
+* When deciding between a 4 double bluff and a finesse, the player should evaluate whether or not it will take him or her 2+ blind-plays to fulfill the finesse. if yes, 4 double bluff, else finesse. The same logic applies to determining whether or not  5 double bluff or finesse has been given.
+
+#### Loaded with Trash
+* A player with known trash is considered to be loaded for the purposes of Loaded Play Clues
+
+#### Pushing Via Chop
+* A trash push with chop moved cards and already touched cards is legal. By recluing this, the clue-giver is focusing known trash which is next in line to be played. The clue receiver should play her chop.
+
+#### Charmed 4 Discard Constraints
+* If Cathy’s 4 is used as a target for a 4 charm on turn 1 and Cathy wants to discard on turn 3, Cathy must discard her 4’s with a priority on the non-focused. If Cathy doesn’t discard on turn 3, she must hold these 4’s as normal touched cards. 
+
+#### 3 save locked hand exception
+* It is illegal to save someone’s 3 if as a result this person’s hand becomes locked. If the person has a delayed play clue, no matter how delayed, their hand is not considered locked.
+
+#### No Double tempo clues
+* All tempo clues are tempo clue chop moves unless it’s a stall situation. Re-cluing multiple cards only calls for the left most card to be played (unless that card is a known play then the focus slides to the right). It also calls for a chop move.
+
+#### Priority Moves
+* You can not delay a blind-play for a priority move.
+* Playing non-globally known cards can not call for a priority move.
+* No Load clue unless the card you’re targeting (via a priority finesse) is in the trash.
+* From each person’s perspective, whenever a move is done that is best for the team is not done, it is because your hand makes it the best move. You should assume that the location of the card that makes it the best move is in a matching clued card (as a prompt) or on finesse.
+* If there is a tie (either they both play into someone else's hand or both into your own), then the card that has priority is of the lowest rank. If they are of the same rank, then it is the left-most card.
+* No out of position priority bluffs
+
+#### 7/8 Clue End Game Speedup
+* In end game, if Alice has 7 clues, Alice may bomb her right-most known trash or, in the case she doesn’t have known trash, her right-most untouched card as a speedup maneuver. If she does so, no one is expected to play. You can not do this if there is a play on the board! Otherwise 8 clues will not be reached and you should just clue and let the other person without a play discard.
+
+#### Stacked Special Move Location
+* Determining Ejection/Discharge spots does not skip over finesses. That is, if slot one is already finessed, slot two is still the ejection
+* As an example, If someone is 5 pulled their finesse positions remain the same for the purposes of special moves.
+
+### 4 Charm Finesse Elimination
+* If Alice clues Cathy the number 4 on turn 1, and Bob plays slot 4, Cathy writes negative 1 notes on her slot 1. If on a subsequent turn, Bob or Alice clue a non-playable 2, and this card which has negative 1 is still on finesse, Cathy should shift her finesse position and play her ejection slot since she knows her finesse is not a 1. 
+* Note that any clue which asks for an ejection, discharge, or charm from Cathy should still get those finesse positions without any shifting.
 
 ## 4p Rainbow (6 Suits) - Detrimental Characters 
 This competition features a specific detriment assigned to each player at the beginning of the game. Below are conventions and strategies by detriment.
@@ -822,5 +948,5 @@ Highest on the list should prefer discarding, and lowest should prefer not disca
 
 # Non-Series Competitions 
 
-## 5p No Variant (6 Suits) - "No Hats"
+## 5p No Variant - "No Hats"
 * Coming soon!
