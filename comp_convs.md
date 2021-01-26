@@ -946,7 +946,118 @@ Highest on the list should prefer discarding, and lowest should prefer not disca
   * Note that if you are right in front of the miser, you might want to avoid discards. Potentially DDA stopper, although other players should be helping out.
 5 pulls are less valuable because 5 stalls are good to have
 
+# 2021 H1 Standard Series
+
+## 3p Dual-Color Mix [1/25/21]
+### General Notes
+* No 5 stalls in early game (except in stall situations, of course). 
+* 4 Number Charm, 4 Color Blast are on (blast to avoid safety charm read)
+  * Critical 4 bluffs take precedence
+  * Illegal to discard except for sacrifices
+* Trash push ejection + chop move is on
+* Useless Clue Framework is on 
+* 4 Double Bluff Override (two-blind-play rule) is on 
+* All intentional duplications (including 1s) are discharges
+* No 3 Saves
+* Sly Gentleman’s is on
+* No Batons is on
+* Elimination 5’s Chop Move (the cm’ed card is the eliminated card) is on 
+* Unnecessary GD Assumption is on 
+* GD play is of blind-play priority on the priority table
+* Unnecessary Chop Move Assumption, is on
+  * If a move does not pick up a new good card, and it could have a chop move component, it does have a chop move component.
+* Loaded play clues in mid-game
+* DDA is OFF
+* White Compromise is OFF
+* Stall sequence is the same as Hyphen-ated, except we don’t do 8 clue saves
+* Black matches rainbow
+* Blind-play to reveal trash promises all of the clued cards are trash
+* No Eureka CM plays when it could be read to be as a result of a clue that just occurred
+
+### Other Conventions
+#### Useless Clues
+* See: https://github.com/Zamiell/hanabi-conventions/issues/460
+* DPE is strictly off. If a move is clearly used to trigger a useless double finesse but could not happen, it instead calls for a *double chop move*
+
+#### Negative Color Tempo Clues
+* If a color clue given does not introduce new cards, does not make the focus of the clue playable, and singles out a card that may be a playable card, then it is a Negative Color Tempo Clue. The clue recipient is promised that their clued card is white and playable (perhaps through a finesse).
+* That is, a player should entertain a negative color tempo clue before a self-color bluff (all after thinking about finesses, of course).
+* For example, see: https://hanab.live/replay/395070#48
+* The clue-recipient should not chop move, as the card was likely unprompt-able, or the team is desperate to get the card out.
+
+#### Self-Color Chop Move (NO SCE)
+* As an exception to the information-less component of a useless double chop move, a color clue fill-in on 2-or-more away from playables, that is NOT A NEGATIVE COLOR TEMPO CLUE, is a double chop move.
+* Similarly, Bob MUST discard or clue Cathy on this next turn in order to communicate that it is not a finesse through Cathy either.
+
+#### 5CE Uncertain Cards over Blind Play Cards
+* When determining whether or not a color clue to a 5 is a finesse or a 5ce, normally Bob asks himself whether or not 2 blind plays would be required in order to fulfill the finesse.
+* Instead of using blind-plays as the relevant metric, Bob should use uncertain cards. The question then becomes:
+  * Would this finesse require two or more plays of uncertain cards by me? If so, this is a 5ce. If only 1 uncertain play is required, this is a finesse or prompt
+* What is an uncertain play?
+  * An uncertain play is either a prompt or a blind-play.
+
+#### Tempo Clue Chop Move Tree
+* A tempo clue is not a chop move if: 
+  1. it fills in useful information (positive or negative) on at least two cards. OR 
+  2. The recipient player has 2 or more clued cards, and a clue that gets a buried (behind other clued cards) card played was not distinguishable from the cards in front of it.
+* For example, if p3 plays and the card in front of it did not have negative purple or negative 3, then it is not distinguishable.
+
 # Non-Series Competitions 
 
 ## 5p No Variant [1/4/21] - "No Hats"
-* Coming soon!
+### General Notes
+* No 5 stalls in early game. Any 5 save on chop before anyone early discards is expected
+* Loaded Play Clues on in mid-game
+* 4 charms must be given with a number clue. Otherwise assume declined 5 pull
+* A clue is only a 4 charm if it requires a single player to blind play 3 cards (hence turned off when all 1s are clued/played)
+* 4 Double Bluffs are normal hyphenated - prefer the truth, even if it means you need to blind play 2 cards to get there. There are plenty of targets in 5 player to perform double bluffs so that the 4 double bluff override is not turned on. 
+  * As in Hyphenated, bad touch 3 double bluffs and bad touch 4 triple bluffs are on. 
+  * That is, a bad touch of a 3 or a 4 can never be only a single bluff or double bluff respectively
+
+### Hatlike Notes
+* Only once you defer and stop playing cards does playing a layered finesse count as a hat-like maneuver 
+* Trash-pushes, unless they get slot 1, are hat-like 
+* Blazes and Shadows from Alice to Cathy are doubly hat-like, Cathy should just wait a round before revealing her knowledge.
+
+### Other Conventions
+#### Hat-Like Priority
+* Top priority of the priority table is a play that unlocks a hat-like play for the very next player
+* That is, if a blind-play would be hat-like and prevents the next player from performing another hat-like action, then the blind-play has lower priority than another known playable.
+
+#### Occupied Play forced finesse
+* If a player defers a blind-play to give a clue that would normally prompt, and another player could give the clue, then the clue should be read as a finesse first and not a prompt.
+
+#### Occupied Tempo Clue Chop Move
+* If a tempo clue is given and the player was occupied (someone else could have given the tempo clue), then the tempo clue calls for a chop move, even when it otherwise would not.  
+
+#### No-Context Gentleman’s Discard Clarification
+* A GD never gets 2 blind-plays. The team should assume that the person discarding had enough context to determine its exact identity.
+
+#### Slot 1 Misplay Gambles are OFF
+* S1 misplay always calls for 2 blind-plays on slot 1, unless provable otherwise.
+
+#### Unnecessary Blind-play Component Clarification
+* If a move is done that is unnecessary (e.g. unnecessary trash push) and calls for an additional blind-play, the first player who is able to react should assume that they are being called-for. 
+
+#### Blaze Light Discard
+* A modification of Blaze discards to avoid hat-like plays: A player blazes so that the other player can find the true slot of the gentleman’s discard. The blazing player plays one slot to the left of what is conventional. For example play finesse to signify ejection, play ejection to signify discharge.
+* Note: Unused
+
+#### Any move that is doubly-hatlike -> triple ignition
+
+#### Color Choice UTD
+* If there is free choice between using a number that is globally known to be trash vs color that is almost-globally known to be trash, the color clue asks for a discharge
+* For example in https://hanab.live/replay/379360#39 
+  * Kevin gives 2s to avan to get p5 to play then y5 to play as a playable chop move
+  * Kevin gives purple to avan to call for either: 2 extra blind plays on top of the y5 (this is discharge(p2 not known to be trash) + ejection (play the chop moved card)), or a discharge from Jerry.
+
+#### Unnecessary Playable CM
+* A chop move on a single playable card causes a blind play. The blind play causes the chop moved card to become playable. (as why not just give a direct play clue instead?)
+* The chop move is typically done by cluing a card that is known globally to be trash, but this is the same theory for the double 5 pull.
+
+#### BCME Clarifications
+* Chop moving a trash card causes an ejection. This is Bad Chop Move Ejection (BCME). If this ejection was unnecessary, the intent is to trash push from the new chop.
+
+#### Positional Discard is Odd, Misplay is Even
+* A positional discard (not chop) normally conveys that there is one playable on that slot. But what if there are two playables that Bob can see; why didn’t Alice misplay instead? Instead it calls for three (Odd, when there are bombs remaining)
+* A positional misplay off of chop normally conveys that there is two playables on that slot. But what if there are three playables that Bob can see; why didn’t Bob discard instead? Instead it calls for four.
