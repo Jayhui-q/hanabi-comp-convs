@@ -18,6 +18,9 @@ Alice is assumed to be the person performing the action unless otherwise noted.
 * [3p Prism 6](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-prism-6-suits-1109)
 * [4p Rainbow 6 - Detrimental Characters](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#4p-rainbow-6-suits-1214---detrimental-characters)
 
+[2021 H1](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#2021-h1-standard-series)
+* [3p Dual-Color Mix](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#3p-dual-color-mix-12521)
+
 [Non-Series Comps](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#non-series-competitions)
 * [5p No Variant - No Hats](https://github.com/Jayhui-q/hanabi-comp-convs/blob/main/comp_convs.md#5p-no-variant-1421---no-hats)
 
@@ -947,6 +950,7 @@ Highest on the list should prefer discarding, and lowest should prefer not disca
 5 pulls are less valuable because 5 stalls are good to have
 
 # 2021 H1 Standard Series
+Results can be found [here](https://hanabi-competitions.com/series/2021%20H1%20Standard)
 
 ## 3p Dual-Color Mix [1/25/21]
 ### General Notes
